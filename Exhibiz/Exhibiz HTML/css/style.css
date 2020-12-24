@@ -4065,8 +4065,8 @@ border:solid 1px #ddd;
 		padding-bottom:0;
 		position:absolute;
 		z-index:100;
-		top:100%;
-		background:#111;
+		top:80%;
+		background: #071327;
 		color:#ccc;
 	}
 	
