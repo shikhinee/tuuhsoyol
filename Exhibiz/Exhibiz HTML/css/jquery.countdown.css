@@ -39,7 +39,7 @@
 .countdown-section {
 	display: block;
 	float: left;
-	font-size: 14px;
+	font-size: 18px;
 	text-align: center;
 	color:rgba(255,255,255,.6);
 	text-transform:uppercase;
@@ -47,7 +47,7 @@
 }
 .countdown-amount {
 	font-family:"Dosis";
-    font-size: 72px;
+    font-size: 80px;
 	color:#fff;
 }
 .countdown-period {
@@ -66,9 +66,9 @@
 }
 
 .countdown-s1 .countdown-show4 .countdown-section {
-	width: 80px;
+	width: 90px;
 	float:left;
-	background:rgba(255,255,255,.1);
+	background:rgba(7,19,39,.8);
 	padding:20px 0 10px 0;
 	margin-right:10px;
 }
@@ -80,7 +80,7 @@
 .countdown-s1 .countdown-amount {
 	width:auto;
 	margin:0;
-	font-size:26px;
+	font-size:36px;
 	font-weight:400;
 }
 

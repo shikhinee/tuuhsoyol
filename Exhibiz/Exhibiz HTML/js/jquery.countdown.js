@@ -110,7 +110,7 @@
 			significant: 0,
 			description: '',
 			expiryUrl: '',
-			expiryText: '',
+			expiryText: 'Shiki',
 			alwaysExpire: false,
 			onExpiry: null,
 			onTick: null,
