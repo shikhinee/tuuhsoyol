@@ -289,7 +289,7 @@ overflow:visible;
 		object-fit: contain;
 	}
 	.logo {
-	height: 45px;
+	height: 65px;
 	width: auto;
 	}
 	.logo-smaller div#logo {
@@ -309,8 +309,8 @@ overflow:visible;
 		display:inline-block;
 	}
 	.logo-small{
-	margin-bottom:20px;
-	height: 35px;
+	margin-bottom:10px;
+	height: 80px;
 	width: auto;
 	}
 		
@@ -4917,6 +4917,23 @@ width:100%;
 	position: relative;
 	overflow: hidden;
 }
+.picframe-1 {
+	position: relative;
+	overflow: hidden;
+}
+.picframe-1 .overlay-1-v{
+	text-align: center;
+	width: 100px;
+	background: rgba(0,0,0,.7);
+	position:absolute;
+	width:102%;
+	height:100%;
+	z-index:1000;
+	display:table;
+}
+.countdown-s1{
+	margin-top: 16%;
+}
 .picframe img{
 	width:100%;
 }
@@ -5135,9 +5152,17 @@ background: url(../images-event/icon-zoom.png) center no-repeat;
 }
 
 .pf_full_width .item{
-width:24.9%;
+width:25%;
+height:auto;
 float:left;
 }
+.pf_full_width .item-1{
+	width:0.5vw;
+	float:left;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	}
 .pf_full_width.pf_3_cols .item{
 	width:33.3%;
 	}
@@ -7637,12 +7662,20 @@ display:table;
 	float:left;
 	width:100% !important;
 	}
+	}
 	@media only screen and (max-width: 480px) {
 		.pf_full_width .item-1{
 		float:left;
 		width:100% !important;
 		}
-	
+	}
+
+	@media only screen and (max-width: 480px) {
+			.countdown-s1{
+			margin-top: 20%;
+			margin-bottom: 20%;
+			}
+	}
 	/*.item{
 	font-size:32px;
 	line-height:32px;
@@ -7657,3 +7690,4 @@ display:table;
 	}
 	}
 	}
+}

@@ -101,7 +101,7 @@
 		defaultOptions: {
 			until: null,
 			since: null,
-			timezone: null,
+			timezone: +8,
 			serverSync: null,
 			format: 'dHMS',
 			layout: '',
