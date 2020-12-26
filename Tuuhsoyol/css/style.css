@@ -2418,10 +2418,10 @@ border:solid 1px #ddd;
 	font-size:36px;
 	text-shadow: 5px 5px 3px rgba(255,255,255,0.1);
 	}
-	@media only screen and (min-width: 1200px){
+	@media only screen and (min-width: 1400px){
 	h1.title-3{
 		width:930px;
-		margin-left: 10%;
+		margin-left: 15%;
 	}
 	}
 	h1.title-3 strong{
