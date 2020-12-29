@@ -39,11 +39,11 @@
 .countdown-section {
 	display: block;
 	float: left;
-	font-size: 18px;
+	font-size: 12px;
 	text-align: center;
 	color:rgba(255,255,255,.6);
 	text-transform:uppercase;
-	letter-spacing:1px;
+	letter-spacing:3px;
 }
 .countdown-amount {
 	font-family:"Dosis";
@@ -54,7 +54,7 @@
 	font-family:"Dosis";
     display: block;
 	width:70px;
-	margin:0 auto;
+	margin:2px auto;
 	margin-top:5px;
 }
 .countdown-descr {
@@ -70,7 +70,7 @@
 	float:left;
 	background:rgba(7,19,39,.8);
 	padding:20px 0 10px 0;
-	margin-right:10px;
+	margin-right:1px;
 }
 
 .countdown-s1.no-bg .countdown-section{
@@ -79,7 +79,7 @@
 
 .countdown-s1 .countdown-amount {
 	width:auto;
-	margin:0;
+	margin:15px;
 	font-size:36px;
 	font-weight:400;
 }
@@ -88,7 +88,7 @@
 	width:auto;
 	margin:0 auto;
 	font-weight:400;
-	font-size:12px;
+	font-size:10px;
 }
 
 .countdown-s1.countdown-bg-color .countdown-section{
@@ -100,7 +100,7 @@
 		float:left;
 		background:rgba(7,19,39,.8);
 		padding:20px 0 10px 0;
-		margin-right:2px;
+		margin-right:1px;
 	}
 	
 	.countdown-s1.no-bg .countdown-section{
@@ -109,15 +109,15 @@
 	
 	.countdown-s1 .countdown-amount {
 		width:auto;
-		margin:0;
+		margin:15px;
 		font-size:24px;
 		font-weight:400;
 	}
 	
 	.countdown-s1 .countdown-period {
 		width:auto;
-		margin:0 auto;
+		margin:4px auto;
 		font-weight:400;
-		font-size:10px;
+		font-size:11px;
 	}
 }
