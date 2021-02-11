@@ -102,7 +102,41 @@ overflow:hidden;
 .de-navbar-left #wrapper{
 overflow:visible;
 }
-
+button{
+	background-color: transparent;
+}
+button:focus{
+	outline:none;
+}
+.dropbtn {
+	padding: 0px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+	color:white;
+  }
+  
+  
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .dropdown-content {
+	display: none;
+	padding: 10px 0 0 0;
+	position: absolute;
+	overflow: auto;
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	text-decoration: none;
+	display: block;
+  }
+  
+  
+  .show {display: block;}
 /* ================================================== */
 /*  header	*/ 
 /* ================================================== */
@@ -1460,18 +1494,12 @@ footer {
 	#blog-comment li li .avatar {
 	position: absolute;
 	}
-	
-	#blog-comment li li .comment {
-	}
-	
+
 	.comment-info {
 	margin-left: 90px;
 	margin-bottom: 5px;
 	}
-	
-	.comment-info span {
-	}
-	
+
 	.comment-info .c_name {
 	display: block;
 	font-weight: 700;
@@ -2372,8 +2400,6 @@ border:solid 1px #ddd;
 	margin-bottom:15px;
 	width:40px;
 	}
-	h2{
-	}
 	h3 {
 	margin-top: 0;
 	font-size:18px;
@@ -2727,8 +2753,7 @@ border:solid 1px #ddd;
 	.feature-box-image-2.no-bg h2 {
 	padding-top:12px;
 	}
-	.feature-box-image-2.no-bg{
-	}
+
 	.feature-box-image-2.no-bg .inner, .feature-box-image-2.no-bg .inner:hover{
 	padding:0;
 	background:none;
@@ -2751,8 +2776,7 @@ border:solid 1px #ddd;
 	.feature-box-big-icon{
 	text-align:center;
 	}
-	.feature-box-big-icon .text{
-	}
+
 	.feature-box-big-icon i {
 	float:none;
 	display:inline-block;
@@ -3035,32 +3059,17 @@ border:solid 1px #ddd;
 	.pricing-2-col .pricing-box {
 	width: 49%;
 	}
-	
-	.pricing-3-col {
-	}
-	
+
 	.pricing-3-col .pricing-box {
 	width: 32.33%;
-	}
-	
-	.pricing-4-col {
 	}
 	
 	.pricing-4-col .pricing-box {
 	width: 24%;
 	}
 	
-	.pricing-5-col {
-	}
-	
 	.pricing-5-col .pricing-box {
 	width: 19%;
-	}
-	
-	.pricing-2-col,
-	.pricing-3-col,
-	.pricing-4-col,
-	.pricing-5-col{
 	}
 	
 	
@@ -3104,9 +3113,6 @@ border:solid 1px #ddd;
 	padding: 15px 0 15px 0;
 	}
 	
-	.pricing-box li.title-row h4{
-	}
-	
 	.pricing-box li.price-row {
 	padding: 15px 0 15px 0;
 	background:#F8F8F8;
@@ -3128,8 +3134,7 @@ border:solid 1px #ddd;
 	.pricing-box li.btn-row {
 	background: #ddd;
 	}
-	.pricing.pricing-box{
-	}
+
 	.pricing.pricing-box ul {
 	margin: 0;
 	padding: 0;
@@ -3359,8 +3364,7 @@ border:solid 1px #ddd;
 	line-height: 70px;
 	color: #333;
 }
-.pricing-s2 .top .price .month {
-}
+
 .pricing-s2 .bottom {
 	border-top: 0px;
 	padding-bottom:5px;
@@ -3850,10 +3854,7 @@ border:solid 1px #ddd;
 	.timeline .tl-block .tl-message:after{ display: block; content: ' '; clear:both; }
 	.timeline .tl-block .tl-message .tl-icon{float: left; left:100px; }
 	.timeline .tl-block .tl-message .tl-main{ float: left; }
-	.timeline .tl-block .tl-message .tl-main .tl-title {}
-	.timeline .tl-block .tl-message .tl-main .tl-content{}
 	.timeline .tl-block .tl-message .tl-main .tl-content label{ font-weight: bold; display: inline-block; width: 80px;}
-	.timeline .tl-block .tl-message .tl-main .tl-content span{}
 	.timeline .tl-block .tl-message h3{text-transform:none;}
 	.timeline .tl-block .tl-time h4{margin:0 0 10px 0;}
 	.timeline .tl-block .tl-main h4{margin-top:-5px;}
@@ -4097,9 +4098,6 @@ border:solid 1px #ddd;
 	.de-team-list .team-desc h3{
 		color:#fff;
 		margin-bottom:5px;
-	}
-	
-	.de-team-list .social{
 	}
 	
 	.de-team-list .social a{
@@ -5806,9 +5804,6 @@ p{
 	background:#f5f5f5;
 }
 
-.no-bottom .col-md-12 {
-}
-
 .no-bottom {
 padding-bottom: 0 !important;
 }
@@ -6430,10 +6425,6 @@ transition:.5s;
 
 /* schedule */
 
-.schedule-item {
-}
-.dark .schedule-item {
-}
 .schedule-listing:nth-child(even) {
 	background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(229, 229, 229, .65) 50%, rgba(255, 255, 255, 0) 100%);
 	background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(229, 229, 229, .65) 50%, rgba(255, 255, 255, 0) 100%);
@@ -7083,9 +7074,6 @@ display:table;
 	padding: 20px;
 	}
 	
-	#revolution-slider{
-	}
-	
 	nav{
 	width:100%;
 	}
@@ -7706,5 +7694,4 @@ display:table;
 		display:none;
 	}
 	}
-	}
-}
+	
